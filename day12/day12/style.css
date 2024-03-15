@@ -1,0 +1,29 @@
+   
+
+   
+   
+   *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+
+   h1.show{
+    --clr:hsl(120, 100%, 25%);
+    --top:10px;
+    --left:10px;
+  color:var(--clr) ;
+  font-size: 2rem;
+  text-align: center;
+  font-family: fantasy;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: .4rem;
+  display: inline-block;
+border: 3px solid var(--clr);
+border-radius: 1rem;
+  position: absolute;
+  top:var(--top);
+  left: var(--left);
+  padding: 1.9rem;
+}
